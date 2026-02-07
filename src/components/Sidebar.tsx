@@ -38,13 +38,15 @@ export const Sidebar = () => {
         <>
             <Sheet>
                 <SheetTrigger asChild>
-                    <Button variant="ghost" size="icon" className=" hover:border-primary bg-neutral-800 rounded-full hover:text-primary transition-colors duration-200 text-white">
+                    <Button variant="ghost" size="icon" className=" hover:border-primary fixed top-0 left-0 bg-neutral-800 rounded-full hover:text-primary transition-colors duration-200 text-white">
                         <MenuIcon className="h-5 w-5" />
                         
                     </Button>
                 </SheetTrigger>
 
-                <SheetContent side="left" className= "w-84 bg-neutral-800 text-white py-6 pl-10" onCloseAutoFocus={(e) => e.preventDefault()}>
+                <SheetContent side="left" 
+                            className= "w-84 bg-neutral-800 text-white py-6 pl-10 top-0 left-0 h-full z-50" 
+                            onCloseAutoFocus={(e) => e.preventDefault()}>
                     <SheetTitle className="text-lg font-semibold">Navigation Menu</SheetTitle>
 
                     
