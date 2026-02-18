@@ -1,73 +1,40 @@
-# React + TypeScript + Vite
+# Personal Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome! This is my personal portfolio showcasing projects, skills, and experience in data analysis, web development, and tech innovation. I’ve structured this site to highlight the work that I’m most proud of and to make it easy for visitors — including employers and collaborators — to understand who I am and what I can do.
 
-Currently, two official plugins are available:
+## About Me
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+I’m a data enthusiast with a strong foundation in analytics, machine learning, and full-stack development. My journey combines engineering principles with creative problem solving to turn data into insights and ideas into interactive experiences.
 
-## React Compiler
+I enjoy tackling complex problems through thoughtful code, clear visualizations, and thoughtful UX design.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Portfolio Highlights
 
-## Expanding the ESLint configuration
+Below are some things you’ll find in this portfolio:
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+- Interactive data dashboards
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+- Python and SQL projects
+  
+- Machine learning models in real-world datasets
+  
+- Live web apps and tools
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+Each project includes a link to live demos and code repositories.
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+## Built With
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+This portfolio website is built using modern web development technologies, including:
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+- ReactJS — for building responsive, component-driven user interfaces
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+- HTML, CSS & JavaScript — core web technologies for layout and styling
+
+- Responsive design principles — so it works beautifully across devices
+
+##
+Special credit goes to a comprehensive video tutorial that guided the foundation of this site’s layout and React structure: “Build an AWESOME React JS Portfolio Website” on YouTube.
+
+Video Tutorial Reference:
+
+https://youtu.be/RfVfAkgHKpk?si=Rcqq-DCemdyBZYNp
