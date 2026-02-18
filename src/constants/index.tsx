@@ -35,8 +35,7 @@ import {
   Settings,
   Smartphone,
 
-  User,
-  Youtube,
+  User
 } from 'lucide-react';
 
 const navLinks: LinksType[] = [
@@ -73,13 +72,21 @@ const socialLinks: LinksType[] = [
     link: '/https://www.linkedin.com/in/pb37/',
   },
   {
-    icon: Youtube,
-    label: 'Youtube',
-    link: '/#',
+    icon: Mail,
+    label: 'Gmail',
+    link: 'mailto:priyankanbarde@gmail.com',
   },
+  
 ];
 
 const projectsData: ProjectType[] = [
+  {
+    imgSrc: '/images/Wait_time.png',
+    title: 'Emergency Room Wait Time Analysis',
+    tags: ['GitHub'],
+    projectLink: 'https://github.com/priyankaa370/NHAMCS-data-analysis',
+  },
+
   {
     imgSrc: '/images/telco1.png',
     title: 'Telco Customer Churn Analysis',
@@ -87,23 +94,18 @@ const projectsData: ProjectType[] = [
     projectLink: 'https://github.com/priyankaa370/Telco-Customer-Churn-Analysis/tree/main',
   },
   {
-    imgSrc: '/images/project-ph-2.jpeg',
+    imgSrc: '/images/homeloan.png',
     title: 'Home Loan Approval Prediction',
     tags: ['GitHub'],
     projectLink: 'https://github.com/priyankaa370/Home-Loan-Approval-Prediction',
   },
   {
-    imgSrc: '/images/project-ph-3.jpeg',
-    title: 'Marketing Analytics for OOH Billboard Planning',
+    imgSrc: '/images/amazon.png',
+    title: 'Amazon Kindle Books Data Analysis',
     tags: ['GitHub'],
-    projectLink: 'https://github.com/priyankaa370/Marketing-Analytics-for-OOH-Billboard-Audience-Segmentation-Scoring-Site-Planning',
+    projectLink: 'https://github.com/priyankaa370/Amazon-Kindle-Books-Data-Analysis',
   },
-  {
-    imgSrc: '/images/project-ph-4.jpeg',
-    title: 'Full stack music app',
-    tags: ['API', 'Development'],
-    projectLink: 'https://musify-5al0.onrender.com/',
-  },
+  
 ];
 
 const education: ExperienceType[] = [

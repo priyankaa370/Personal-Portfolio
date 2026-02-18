@@ -12,7 +12,7 @@ export const staggerContainer = (delay = 0): Variants => ({
   visible: {
     transition: {
       delayChildren: delay, // 👈 add per-section control
-      staggerChildren: 0.4,
+      staggerChildren: 0.2,
     },
   },
 });

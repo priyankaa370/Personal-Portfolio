@@ -38,7 +38,14 @@ export const About = () => {
               variants={fadeUp}
               className = 'mt-4 text-neutral-300'>
                 
-                I am a data analyst who loves turning messy numbers into clear stories. I dig into data to find patterns that matter, create visuals that actually make sense, and help teams make smarter decisions. I’m curious, detail-obsessed, and never satisfied until insights hit home. Data isn’t just numbers but, it’s a way to understand the world, and I’m here to make it meaningful.   
+                I work at the intersection of structured thinking and real-world business problems. My approach to data is simple: start with the question, understand the context, then let the numbers challenge assumptions.
+               
+            </motion.p>
+
+            <motion.p
+              variants={fadeUp}
+              className = 'mt-4 text-neutral-300'>
+                Over the past two years, I’ve worked across churn analysis, marketing performance, sales metrics, and predictive modeling. I don’t just build dashboards; I design them to answer specific business questions and reduce ambiguity.
                
             </motion.p>
 
@@ -46,8 +53,16 @@ export const About = () => {
               variants={fadeUp}
               className = 'mt-2 text-neutral-300'>
                 
-                Along the way, I’ve built a toolkit including Python, SQL, Tableau, Power BI, Alteryx, PostgreSQL, cloud platforms, and more, which lets me tackle any data challenge. I’ve gained this skillset through internships, full-time roles, and diverse projects across finance, healthcare, telecom, and retail. Each experience taught me not just how to work with data, but how to ask the right questions, uncover meaningful patterns, and turn insights into action. Whether it’s building dashboards, cleaning messy datasets, or deploying predictive models, I’m constantly learning and applying new ways to make data tell a story.          
+                My experience spans finance, healthcare, telecom, and retail environments, where data is rarely clean and almost never complete. Working with imperfect datasets has taught me to think critically about data quality, bias, and business impact — not just output.
             </motion.p>
+
+            <motion.p
+              variants={fadeUp}
+              className = 'mt-2 text-neutral-300'>
+                
+                I see data not as static numbers, but as evolving evidence. Every dataset is a hypothesis waiting to be tested.
+            </motion.p>
+            
 
             <motion.div
               variants={fadeUp}

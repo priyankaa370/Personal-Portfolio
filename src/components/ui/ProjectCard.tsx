@@ -26,7 +26,7 @@ export const ProjectCard = ({ imgSrc, projectLink, title }:  ProjectType ) => {
         <h3 className="text-lg font-semibold text-white">{title}</h3>
       </div>
 
-      <figure className='overflow-hidden rounded-md relative group'>
+      <figure className='overflow-hidden rounded-md relative group mt-2'>
         <img 
           src={imgSrc} 
           alt={title} 
