@@ -64,17 +64,17 @@ const socialLinks: LinksType[] = [
   {
     icon: Github,
     label: 'GitHub',
-    link: '/https://github.com/priyankaa370',
+    link: 'https://github.com/priyankaa370',
   },
   {
     icon: Linkedin,
     label: 'LinkedIn',
-    link: '/https://www.linkedin.com/in/pb37/',
+    link: 'https://www.linkedin.com/in/pb37/',
   },
   {
     icon: Mail,
     label: 'Gmail',
-    link: 'mailto:priyankanbarde@gmail.com',
+    link: 'https://mailto:priyankanbarde@gmail.com',
   },
   
 ];
