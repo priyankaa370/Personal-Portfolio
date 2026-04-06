@@ -51,7 +51,7 @@ export const Hero = () => {
                     <a href="#projects" className="mt-8">My Projects</a>
                 </Button>
 
-                <a href="https://drive.google.com/file/d/1NPmPxWvURCnzrDhkLTlaULH9rNp0VrzR/view?usp=sharing" download>
+                <a href="https://drive.google.com/file/d/1vWPcgvIV24OlUXtjw8maAiylZSsPVvwl/view?usp=sharing" download>
                     <Button variant="outline" className="mt-4 ml-4">
                         Download CV
                     </Button>

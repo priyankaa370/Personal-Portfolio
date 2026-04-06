@@ -64,17 +64,17 @@ const socialLinks: LinksType[] = [
   {
     icon: Github,
     label: 'GitHub',
-    link: '/https://github.com/priyankaa370',
+    link: 'https://github.com/priyankaa370',
   },
   {
     icon: Linkedin,
     label: 'LinkedIn',
-    link: '/https://www.linkedin.com/in/pb37/',
+    link: 'https://www.linkedin.com/in/pb37/',
   },
   {
     icon: Mail,
     label: 'Gmail',
-    link: 'mailto:priyankanbarde@gmail.com',
+    link: 'https://mailto:priyankanbarde@gmail.com',
   },
   
 ];
@@ -128,11 +128,18 @@ const education: ExperienceType[] = [
 
 const experience: ExperienceType[] = [
   {
-    year: '2023 – 2024',
-    title: 'Graduate Teaching Assistant',
-    institute: 'Stevens Institute of Technology',
-    location: 'Hoboken, NJ',
-    desc: 'Assisted in teaching and mentoring undergraduate students in computer science and data analytics courses.',
+    year: '2026 – present',
+    title: 'Data Analyst',
+    institute: 'Accenture',
+    location: 'New Jersey, USA',
+    desc: 'Orchestrating zero-loss data transitions for 50k+ active participants on global ESPP platforms via high-accuracy ETL and cross-functional collaboration.',
+  },
+  {
+    year: '2025 – 2026',
+    title: 'Business Data Analyst',
+    institute: 'KGS Technology Group, Inc.',
+    location: 'New Jersey, USA',
+    desc: 'Spearheading data analysis initiatives to optimize business processes and enhance operational efficiency.',
   },
   {
     year: '2024 – 2025',
@@ -142,12 +149,13 @@ const experience: ExperienceType[] = [
     desc: 'Analyzed large datasets to extract actionable insights and supported data-driven decision-making processes.',
   },
   {
-    year: '2025 – Present',
-    title: 'Business Data Analyst',
-    institute: 'KGS Technology Group, Inc.',
-    location: 'Remote, USA',
-    desc: 'Spearheading data analysis initiatives to optimize business processes and enhance operational efficiency.',
-  },
+    year: '2023 – 2024',
+    title: 'Graduate Teaching Assistant',
+    institute: 'Stevens Institute of Technology',
+    location: 'Hoboken, NJ',
+    desc: 'Assisted in teaching and mentoring undergraduate students in computer science and data analytics courses.',
+  }  
+  
 ];
 
 const tools: ToolsType[] = [

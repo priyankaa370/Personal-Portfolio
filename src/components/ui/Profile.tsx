@@ -27,9 +27,15 @@ export const Profile = () => {
                     className="lg:w-96 rounded-full object-cover border-2 border-white" />
 
                     <div className="pt-6"> 
-                        <p className="text-sm text-neutral-300"> Specialization: </p>
+                        <p className="text-sm text-neutral-300"> Current company: </p>
                          
-                        <p className="text-lg capitalize"> Data Analyst | Visualization</p>
+                        <p className="text-lg capitalize"> Accenture</p>
+                    </div>
+
+                    <div className=""> 
+                        <p className="text-sm text-neutral-300"> Specialization & domain: </p>
+                         
+                        <p className="text-lg capitalize"> Finance | ESPP</p>
                     </div>
 
                     <div> 
@@ -58,8 +64,8 @@ export const Profile = () => {
 
                     </div>
 
-                    <Button className="hidden lg:inline-block mt-4 w-full bg-neutral text-white hover:bg-neutral-800 hover:text-white cursor-pointer" 
-                    size='lg'>Let's Work!</Button>
+                    <Button  className="hidden lg:inline-block mt-4 w-full bg-neutral text-white hover:bg-neutral-800 hover:text-white cursor-pointer" 
+                    size='lg'><a href="#contact" className="mt-8">Let's connect!</a></Button>
                     
                 </div>
             
