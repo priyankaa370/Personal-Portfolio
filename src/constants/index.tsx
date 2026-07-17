@@ -238,17 +238,23 @@ const services: ServiceType[] = [
 ];
 
 const statsData: StatsType[] = [
+  {
+    number: '1.2M+',
+    label: 'Users Impacted',
+  },
+  
+  {
+    number: '950M+',
+    label: 'Records Migrated',
+  },
   
   {
     number: '02+',
     label: 'Years Of Experience',
   },
+  
   {
-    number: '100k+',
-    label: 'Records Analyzed',
-  },
-  {
-    number: '10+',
+    number: '20+',
     label: 'Projects Done',
   },
 ];

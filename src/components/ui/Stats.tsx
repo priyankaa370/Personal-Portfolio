@@ -28,7 +28,7 @@ export const Stats = () => {
           initial="hidden"
           whileInView="visible"
           viewport={{ once: true, amount: 0.8 }}
-          className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8"
+          className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 gap-8"
         >
          {statsData.map((stats, i) => (
             <motion.div key = {i} variants={fadeUp} className = 'flex justify-center items-center flex-col'>

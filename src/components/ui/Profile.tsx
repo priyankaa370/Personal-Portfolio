@@ -44,6 +44,13 @@ export const Profile = () => {
                         <p className="text-lg capitalize"> New York, USA</p>
                     </div>
 
+                     <div> 
+                        <p className="text-sm text-neutral-300"> Skill Set: </p>
+
+                        <p className="text-lg capitalize"> SQL, Python, Excel, ETL, Azure, Databricks</p>
+                    </div>
+
+
                     
 
                     <div className="flex gap-3 pt-2 text-neutral-500">
